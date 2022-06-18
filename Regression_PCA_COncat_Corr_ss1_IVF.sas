@@ -5,7 +5,7 @@ data square.RATINGS;
 cards;
 run;
 
-proc princomp data=square.RATINGS out=job_ratings_PCA_3;
+proc princomp data=square.RATINGS out=job_ratings_PCA_3;https://github.com/squareitall/SAS_Practise/blob/main/Regression_PCA_COncat_Corr_ss1_IVF.sas
 var KNOWHOW PROBLEM_SOLVING ACCOUNTABILITY;
 RUN;
 
